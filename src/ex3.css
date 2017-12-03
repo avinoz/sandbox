@@ -1,0 +1,39 @@
+
+.plane-cont {
+  perspective: 1500px;
+  perspective-origin: 50% 48%;
+  width: 100vw;
+  height: 100vh;
+  margin-top: -10vh;
+  box-sizing: border-box;
+ }
+
+.grid-plane {
+  position: absolute;
+  width: 100vw;
+  height: 30vw;
+  pointer-events: none;
+  transition: 0.2s ease all; }
+
+table {
+ margin: 0 auto;
+  transform: scale(0.8);
+  border-collapse: separate;
+  border-spacing: 200px;
+  margin-top: -200px; }
+
+td {
+  border: solid 1px #111;
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  background: rgba(30, 30, 30, 0.8);
+  transition: all ease 0.2s;
+  text-align: center;
+  opacity: 0.6;
+  pointer-events: auto;
+  cursor: pointer; }
+
+td:hover {
+  background: white;
+}

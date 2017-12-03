@@ -1,0 +1,21 @@
+.floating-plane-cont {
+  perspective: 1000px;
+  width: 100vw;
+  height: 80vh;
+  padding: 5vh 0;
+  box-sizing: border-box; }
+
+.floating-plane {
+  position: absolute;
+  margin-left: 20vw;
+  width: 60vw;
+  height: 60vh;
+  background: url("./img/site.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.2s ease all; }
+
+.floating-plane:active {
+   background: red;
+}
