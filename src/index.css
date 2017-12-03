@@ -89,7 +89,7 @@ ul.header li a:hover {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 600px) and (orientation: portrait),(max-width: 900px) and (orientation: landscape)  {
    body {
      background: black;
    }
