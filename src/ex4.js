@@ -14,7 +14,7 @@ class ex4 extends React.Component {
       <div>
         <div class="opening-blurb">
           <h2>Moving Plane</h2>
-          <p>This experiment demonstrates the easiest way to break 2-dimensionality in web design. It’s not the most effective but the concept is to break the rendering plane from the browser frame and make it respond to the user’s cursor location.
+          <p>This experiment demonstrates the easiest way to break 2-dimensionality in web design. It’s not the most effective but the concept is to separate the rendering plane from the browser frame and make it respond to the user’s cursor placement.
           </p>
         </div>
 

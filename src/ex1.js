@@ -30,7 +30,7 @@ class ex1 extends React.Component {
       <div>
         <div class="opening-blurb">
           <h2>Ball Play</h2>
-          <p>At one point I was looking to re-create my personal site and came to the conclusion that my work is comprised of two categories: physical work (buildings, spaces, furniture) and virtual work (websites, branding, graphics). The ball is symbolic of my body of work and I created the 3D illusion of it spinning as you move your mouse through JS calculations and CSS manipulation. In the original concept, when you choose a side, the background would change to that color and show you the related work.</p>
+          <p>At one point I was looking to re-create my personal site and came to the conclusion that my work is comprised of two categories: physical work (buildings, spaces, furniture) and virtual work (websites, branding, graphics). The ball is symbolic of my work and I created this 3D illusion using JS calculations and CSS manipulation. In the original concept, the user chooses a side and the site would be engulfed by that color then show you relevant work.</p>
         </div>
 
 

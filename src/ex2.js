@@ -38,7 +38,7 @@ class ex2 extends React.Component {
       <div>
       <div class="opening-blurb">
         <h2>Table of Cards</h2>
-        <p>For work, I deal with a lot of data and tables. This experiment was an attempt at how we can show more related data to any given row. It was also an way to explore the idea that data doesn’t have to exists in tables but that some data should be seen as cards. This concept excels well when you need your users to think of each piece of data separately particularly when that entry needs some sort of action.
+        <p>For work, I deal with a lot of data and tables. This experiment was an attempt at how we can show more data to any given row. It was also a way to intiate the conversation that data doesn’t have to exists only in tables but that some data can effectively be seen as cards. This concept fits particularly well when you want your users to think of each piece of data separately rather than just parts of a whole.
         </p>
       </div>
 

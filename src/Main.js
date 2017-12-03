@@ -20,28 +20,34 @@ class Main extends Component {
   render() {
     return (
       <HashRouter>
-        <div class="everything-cont">
-          <ul className="header">
-            <li id="title"><NavLink to="/">Experiments by Alvin</NavLink></li>
-            <li><NavLink to="/ex1">ex1</NavLink></li>
-            <li><NavLink to="/ex2">ex2</NavLink></li>
-            <li><NavLink to="/ex3">ex3</NavLink></li>
-            <li><NavLink to="/ex4">ex4</NavLink></li>
-            <li><NavLink to="/ex5">ex5</NavLink></li>
-            <li><NavLink to="/ex6">ex6</NavLink></li>
-            <li><NavLink to="/ex7">ex7</NavLink></li>
-            <li><NavLink to="/ex8">ex8</NavLink></li>
-          </ul>
-          <div className="content">
-            <Route exact path="/" component={Home}/>
-            <Route path="/ex1" component={ex1}/>
-            <Route path="/ex2" component={ex2}/>
-            <Route path="/ex3" component={ex3}/>
-            <Route path="/ex4" component={ex4}/>
-            <Route path="/ex5" component={ex5}/>
-            <Route path="/ex6" component={ex6}/>
-            <Route path="/ex7" component={ex7}/>
-            <Route path="/ex8" component={ex8}/>
+        <div>
+           <div class="mobile-experience">
+            <h3>This site contains experiments that are not optimized for mobile. Please revisit on your desktop device. Thanks!</h3>
+            <p>But if you must see some of what I do at this immediate second, click here to see some <a href="https://www.aviocollective.com/">physical stuff</a> that I build. You can see my resume and reach me <a href="https://www.linkedin.com/in/avinoz/">here</a>.</p>
+          </div>
+          <div class="everything-cont">
+            <ul className="header">
+              <li id="title"><NavLink to="/">Experiments by Alvin</NavLink></li>
+              <li><NavLink to="/ex1">ex1</NavLink></li>
+              <li><NavLink to="/ex2">ex2</NavLink></li>
+              <li><NavLink to="/ex3">ex3</NavLink></li>
+              <li><NavLink to="/ex4">ex4</NavLink></li>
+              <li><NavLink to="/ex5">ex5</NavLink></li>
+              <li><NavLink to="/ex6">ex6</NavLink></li>
+              <li><NavLink to="/ex7">ex7</NavLink></li>
+              <li><NavLink to="/ex8">ex8</NavLink></li>
+            </ul>
+            <div className="content">
+              <Route exact path="/" component={Home}/>
+              <Route path="/ex1" component={ex1}/>
+              <Route path="/ex2" component={ex2}/>
+              <Route path="/ex3" component={ex3}/>
+              <Route path="/ex4" component={ex4}/>
+              <Route path="/ex5" component={ex5}/>
+              <Route path="/ex6" component={ex6}/>
+              <Route path="/ex7" component={ex7}/>
+              <Route path="/ex8" component={ex8}/>
+            </div>
           </div>
         </div>
       </HashRouter>

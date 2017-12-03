@@ -21,7 +21,7 @@ class ex3 extends React.Component {
       <div>
       <div class="opening-blurb">
         <h2>3D Grid</h2>
-        <p>I took the idea of cards even further at one point and organized them in ‘3-dimensional' space. I was fascinated with mouse tracking and really wanted to break the idea that websites need to be flat, existing only in 2-dimensions. I took a lot of cues from game design where they have complicated UIs but didn’t deny themselves from style, ornamentation and dimensions.
+        <p>I took the idea of cards even further at one point and organized them in ‘3-dimensional' space. I was fascinated with mouse tracking and really wanted to break the idea that websites need to be flat, existing only in 2-dimensions. I took a lot of cues from game design where they have complicated UIs but didn’t deny themselves of style, ornamentation and multi-dimensions.
         </p>
       </div>
 

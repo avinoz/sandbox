@@ -1,3 +1,7 @@
+.mobile-experience {
+  display: none;
+}
+
 body {
   font-family: helvetica;
   font-weight: lighter;
@@ -9,6 +13,12 @@ body {
   background: #FFCC00;
   overflow: none;
 }
+
+a {color: red;}
+a:hover {
+ color: orange !important;
+}
+a:active {filter:brightness(150%);}
 
 .everything-cont {
   height: 100vh;
@@ -76,4 +86,44 @@ ul.header li a:hover {
 
 #title a:hover {
   background: red;
+}
+
+
+@media (max-width: 600px) {
+   body {
+     background: black;
+   }
+
+   .mobile-experience {
+    position: relative;
+     letter-spacing: 1px;
+     background: black;
+     width: 100vw;
+     height: 100vh;
+     display: inline;
+  }
+
+  .mobile-experience h3 {
+     font-size: 2.5em;
+     line-height: 1.3em;
+     color: #e0e0e0;
+     padding: 25px 25px 0 25px;
+     box-sizing: border-box;
+    }
+
+   .mobile-experience p {
+     font-size: 1.5em;
+     line-height: 1.5em;
+     color: #888;
+     padding: 25px 25px 0 25px;
+     box-sizing: border-box;
+   }
+
+   .mobile-experience a {
+    color: red;
+   }
+
+  .everything-cont {
+    display: none;
+  }
 }
